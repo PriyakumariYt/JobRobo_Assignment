@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Playfair+Display&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200;1,300;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(229, 247, 248);
+  scroll-behavior: smooth;
+}
+
+.header {
+  height: 100vh;
+  width: 300px;
+  padding: 15px 30px;
+  background-color: rgb(255, 252, 252);
+
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.4s;
+  z-index: 99;
+}
+
+.header .nav {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.header nav ul li {
+  list-style: none;
+}
+.header nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 10px;
+  margin: 7px 0;
+  align-items: center;
+
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  margin-left: 20px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.fas {
+  color: rgb(212, 203, 203);
+  margin: 5px;
+  margin-right: 7px;
+}
+
+span {
+  color: blue;
+}
+span.blue-icon i {
+  color: blue;
+}
+#home {
+  width: 100%;
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home-row {
+  margin-left: 300px;
+  display: flex;
+
+  color: blue;
+}
+.container {
+  width: 60%;
+  height: 50px;
+  border: 0.5px solid rgb(231, 233, 231);
+  margin: 5px;
+  border-radius: 15px;
+  background: white;
+}
+.searchbar {
+  width: 20%;
+  height: 50px;
+  border: 2px solid green;
+  margin: 5px;
+  margin-left: 40px;
+  border-radius: 15px;
+  font-size: 20px;
+  text-align: left;
+  background: white;
+  border: 0.5px solid rgb(231, 233, 231);
+}
+.settingBotton {
+  width: 5%;
+  height: 50px;
+  border: 0.5px solid green;
+  margin: 5px;
+  padding: 12px;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  border: 0.5px solid rgb(231, 233, 231);
+  background: white;
+}
+.bigcontainer {
+  height: 400px;
+
+  margin-left: 300px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1 {
+  height: 400px;
+  width: 60%;
+  margin: auto;
+
+  -webkit-box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  -moz-box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  transition: 1s;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 30px;
+}
+.box2 {
+  height: 400px;
+  width: 35%;
+  margin: auto;
+}
+.con1 {
+  height: 180px;
+  width: 100%;
+  display: flex;
+
+  margin: 15px auto;
+  padding: 15px;
+
+  -webkit-box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  -moz-box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  transition: 1s;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 30px;
+}
+.smallContainer {
+  height: 200px;
+  margin-left: 300px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.progressbar {
+  height: 100px;
+  width: 25%;
+
+  -webkit-box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  -moz-box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  box-shadow: 1px 5px 31px 2px rgba(41, 92, 41, 0.78);
+  transition: 1s;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 30px;
+}
+/* that  */
+.people img {
+  height: 70px;
+  width: 70px;
+}
+.people {
+  display: flex;
+}
+.people img {
+  margin: 10px;
+}
+.people h4 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.box1 h3 {
+  margin-top: -20px;
+  margin-left: 80px;
+  font-size: 20px;
+  color: grey;
+  opacity: 0.8;
+}
+hr {
+  width: 70%;
+  align-items: center;
+  display: flex;
+
+  justify-content: center;
+  margin: 70px auto;
+}
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  margin: 0px 0px 20px 30px;
+}
+.text h5 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: rgb(131, 131, 97);
+}
+.text2 {
+  margin: 0px 30px 20px 0px;
+}
+.text2 h5 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: rgb(131, 131, 97);
+  text-align: right;
+}
+.side {
+  display: flex;
+  margin-left: 50%;
+  justify-content: right;
+  align-items: left;
+}
+.side img {
+  margin: 10px;
+}
+.side h4 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.side img {
+  height: 70px;
+  width: 70px;
+}
