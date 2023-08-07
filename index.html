@@ -48,82 +48,95 @@
           </li>
         </ul>
       </nav>
-      <!-- <i class="fas fa-bars" id="Menubtn"></i> -->
+      <i class="fas fa-bars" id="Menubtn"></i>
     </header>
-    <section id="home">
-      <div class="home-row">
-        <!-- <i class="fa-solid fa-arrow-right"></i> -->
-        <div class="container">
-          <i class="fas fa-arrow-right"></i> My profile
-        </div>
-        <div class="searchbar">Search</div>
-        <div class="settingBotton"><i class="fas fa-bell"></i></div>
-        <div class="settingBotton"><i class="fas fa-cog"></i></div>
-      </div>
-      <div class="bigcontainer">
-        <div class="box1">
-          <div class="people">
-            <img src="12.png" alt="" />
-            <h4>john doe</h4>
-            <!-- <h6>Employee</h6> -->
+    <main>
+      <section id="home">
+        <div class="home-row">
+          <!-- <i class="fa-solid fa-arrow-right"></i> -->
+          <div class="container">
+            <i class="fas fa-arrow-right"></i> My profile
           </div>
-          <h3>USA,chigango</h3>
-          <hr />
-          <div class="textContainer">
-            <div class="text">
-              <h5>Current Postion</h5>
-              <h5>Industry</h5>
-              <h5>Phone No</h5>
-              <h5>Email</h5>
-              <h5>Linkedin</h5>
-            </div>
-            <div class="text2">
-              <h5>UI/UX designer</h5>
-              <h5>Computer Networking</h5>
-              <h5>001-115-153</h5>
-              <h5>joborobo@gmail.com</h5>
-              <h5>joborobo@</h5>
-            </div>
+          <div class="botton">
+            <div class="searchbar">Search</div>
+            <div class="settingBotton"><i class="fas fa-bell"></i></div>
+            <div class="settingBotton"><i class="fas fa-cog"></i></div>
           </div>
         </div>
-        <div class="box2">
-          <div class="con1">
-            <div class="side">
-              <h4>john doe</h4>
+        <div class="bigcontainer">
+          <div class="box1">
+            <div class="people">
               <img src="12.png" alt="" />
-            </div>
-          </div>
-          <div class="con1">
-            <div class="side">
               <h4>john doe</h4>
-              <img src="12.png" alt="" />
+              <!-- <h6>Employee</h6> -->
+            </div>
+            <h3>USA,chigango</h3>
+            <hr />
+            <div class="textContainer">
+              <div class="text">
+                <h5>Current Postion</h5>
+                <h5>Industry</h5>
+                <h5>Phone No</h5>
+                <h5>Email</h5>
+                <h5>Linkedin</h5>
+              </div>
+              <div class="text2">
+                <h5>UI/UX designer</h5>
+                <h5>Computer Networking</h5>
+                <h5>001-115-153</h5>
+                <h5>joborobo@gmail.com</h5>
+                <h5>joborobo@</h5>
+              </div>
+            </div>
+          </div>
+          <div class="box2">
+            <div class="con1">
+              <div class="side">
+                <h4>john doe</h4>
+                <img src="12.png" alt="" />
+              </div>
+            </div>
+            <div class="con1">
+              <div class="side">
+                <h4>john doe</h4>
+                <img src="12.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="smallContainer">
-        <div class="progressbar">
-          <div class="BoxBar">
-            <h3>Applied Job</h3>
-            <p>Applied 3 month</p>
+        <div class="smallContainer">
+          <div class="progressbar">
+            <div class="BoxBar">
+              <h3>Applied Job</h3>
+              <p>Applied 3 month</p>
+            </div>
+            <div class="progress-bar"></div>
           </div>
-          <div class="progress-bar"></div>
-        </div>
-        <div class="progressbar">
-          <div class="BoxBar">
-            <h3>View By</h3>
-            <p>Applied 3 month</p>
+          <div class="progressbar">
+            <div class="BoxBar">
+              <h3>View By</h3>
+              <p>Applied 3 month</p>
+            </div>
+            <div class="progress-bar1"></div>
           </div>
-          <div class="progress-bar1"></div>
-        </div>
-        <div class="progressbar">
-          <div class="BoxBar">
-            <h3>invited</h3>
-            <p>Applied 3 month</p>
+          <div class="progressbar">
+            <div class="BoxBar">
+              <h3>invited</h3>
+              <p>Applied 3 month</p>
+            </div>
+            <div class="progress-bar2"></div>
           </div>
-          <div class="progress-bar2"></div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
+
+    <script>
+      let Menubtn = document.getElementById("Menubtn");
+
+      Menubtn.addEventListener("click", function (e) {
+        document.querySelector("body").classList.toggle("mobile-nav-active");
+        this.classList.toggle("fa-times");
+      });
+    </script>
   </body>
 </html>
